@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <button data-action="menu" data-page="home">Inicio</button>
+      <button data-action="menu" data-page="profile">Meu Perfil</button>
+      <button data-action="menu" data-page="reports">Relatórios</button>
+      <button data-action="menu" data-page="login">Login</button>
+      <button data-action="menu" data-page="config">Configuração</button>
+      <button data-action="menu" data-page="logout">Sair</button>
+
+      |
+      <button onclick="changeDarkmode(true)">Dark mode</button>
+      <button onclick="changeDarkmode(false)">Light mode</button>
+    </div>
+
+    <div id="home">
+      Bem vindo
+    </div>
+
+    <div id="profile">
+      Perfil
+    </div>
+
+    <div id="reports">
+      Relatorios
+    </div>
+
+    <div id="login">
+      <h1>Login</h1>
+    </div>
+
+    <div id="config">
+      Configuração
+    </div>
+
+    <div id="logout">
+      Saindo...
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <script src="js/darkmode.js"></script>
+  </body>
+</html>
